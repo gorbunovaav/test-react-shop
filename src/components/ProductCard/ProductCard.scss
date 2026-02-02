@@ -1,0 +1,43 @@
+.product-card {
+    padding: 16px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: 360px; 
+    width: 100%;
+    box-sizing: border-box;
+    
+    &__image {
+      height: 160px;
+      width: 100%;  
+      object-fit: contain;
+    }
+
+    &__content{
+      flex: 1;          
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      overflow: hidden; 
+    }
+  
+    &__title {
+      font-size: 14px;
+      min-height: 40px;
+      overflow: hidden;
+    }
+  
+    &__price {
+      font-weight: bold;
+    }
+  
+    &__button {
+      margin-top: auto;
+      padding: 8px;
+      cursor: pointer;
+    }
+  }
+  
